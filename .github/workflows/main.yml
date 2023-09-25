@@ -1,7 +1,7 @@
 name: Deployment
 env:
   EB_S3_BUCKET_NAME: "test-django-cicd-bucket-1509"
-  EB_APPLICATION_NAME: "TestDjangoProject"
+  EB_APPLICATION_NAME: "TestDjango_Project"
   EB_ENVIRONMENT_NAME: "TestDjangoProject-env"
   DEPLOY_PACKAGE_NAME: "django-app-${{ github.sha }}.zip"
   AWS_REGION_NAME: "ap-northeast-1"
